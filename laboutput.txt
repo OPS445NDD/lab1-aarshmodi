@@ -1,0 +1,16 @@
+/bin/sh: 1: code: not found
+OPS445 Lab Report - System Information for running ./CheckLab1.py
+=================================================================
+    User login name: asmodi2
+    Git Email: asmodi2@myseneca.com
+    Linux system name: asmodi2ops445
+    Python executable: /usr/bin/python3
+    Python version:  3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0]
+Traceback (most recent call last):
+  File "/home/asmodi2/ops445/lab1/lab1-aarshmodi/./CheckLab1.py", line 299, in <module>
+    x = displayReportHeader()
+  File "/home/asmodi2/ops445/lab1/lab1-aarshmodi/./CheckLab1.py", line 288, in displayReportHeader
+    print('    VS Code version: ',vscode_conf())
+  File "/home/asmodi2/ops445/lab1/lab1-aarshmodi/./CheckLab1.py", line 253, in vscode_conf
+    ver = os.popen('code --version').read().split()[0]
+IndexError: list index out of range
